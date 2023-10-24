@@ -18474,7 +18474,7 @@ main {
 
 .main-content {
   width: 100%;
-  min-height: 595px;
+  min-height: calc(100vh - 340px);
   padding: 0 0 3.125rem 0;
   overflow: hidden;
 }
@@ -18598,8 +18598,7 @@ main {
 
 .a-btn.-primary.hover, .a-btn.-primary:hover {
   background-color: #005231;
-  transform: translate3d(2px, -2px, 3px);
-  transition: 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .a-btn.-primary.disabled, .a-btn.-primary:disabled {
@@ -18618,16 +18617,21 @@ main {
 }
 
 .a-btn.-secondary {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   border: solid #0D7D50 1px;
   background-color: #FFFFFF;
   color: #0D7D50;
 }
 
 .a-btn.-secondary.hover, .a-btn.-secondary:hover {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   background-color: #FFFFFF;
   border: solid #005231 3px;
-  transform: translate3d(2px, -2px, 3px);
-  transition: 0.2s ease-in-out , border 0.08s ease-in-out;
+  transition: 0.08s ease-in-out;
   color: #005231;
 }
 
@@ -18655,10 +18659,14 @@ main {
 }
 
 .a-btn.-help, .a-btn.-return {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 2.5rem;
   width: 2.5rem;
-  padding-left: 0;
-  padding-right: 0;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+  padding: 0;
   background-color: #FFFFFF;
   border: solid #0D7D50 2px;
   color: #0D7D50;
@@ -18671,7 +18679,6 @@ main {
 .a-btn.-help.hover, .a-btn.-help:hover, .a-btn.-help:focus, .a-btn.-return.hover, .a-btn.-return:hover, .a-btn.-return:focus {
   background-color: #005231;
   border: none;
-  transform: translate3d(2px, -2px, 3px);
   transition: 0.2s ease-in-out;
   color: #FFFFFF;
 }
@@ -19475,6 +19482,16 @@ a.-primary {
   color: #FFFFFF !important;
 }
 
+li.pdf {
+  list-style-image: url(../images/picto-pdf.png);
+  color: #0d7d50 !important;
+}
+
+li.pdf::before {
+  content: "" !important;
+  content: none !important;
+}
+
 /*
  *  ## - Atom responsive
  * __________________________________________________
@@ -20262,6 +20279,12 @@ a.-primary {
 
 .a-link.-borderLeft:hover {
   text-decoration: underline;
+}
+
+.a-link:hover {
+  font-family: "opensans-semibold", Arial, Helvetica, sans-serif;
+  color: #005231;
+  font-weight: 600;
 }
 
 .a-link.-icon {
@@ -21600,7 +21623,7 @@ button.a-navLink {
 }
 
 .a-tag.-arrow.-bgBlue::after {
-  border-top: 10px solid #90DBF4;
+  border-top: 10px solid #A1DFEA;
 }
 
 .a-tag.-arrow.-bgOrange::after {
@@ -21629,7 +21652,7 @@ button.a-navLink {
 }
 
 .a-tag.-bgBlue {
-  background-color: #90DBF4;
+  background-color: #A1DFEA;
 }
 
 .a-tag.-bgOrange {
@@ -25083,6 +25106,12 @@ button.a-navLink {
   margin-bottom: 0;
 }
 
+.m-list.-unstyled {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
 .m-list.-img {
   list-style-type: none;
   -webkit-padding-start: 0;
@@ -25090,18 +25119,20 @@ button.a-navLink {
 }
 
 .m-list.-img .m-list__item {
-  padding-bottom: 3.125rem;
+  padding-bottom: 1.25rem;
 }
 
 .m-list.-img .m-list__item:last-child {
   padding-bottom: 0;
 }
 
-.m-list.-img .m-list__item__content__img {
+.m-list.-img .m-list__item__img {
   display: flex;
-  width: 7.813rem;
-  min-width: 7.813rem;
-  margin: 0 auto 1.25rem;
+  margin: 0 0 1.25rem;
+}
+
+.m-list.-img .m-list__item__img img {
+  margin: 0 auto;
 }
 
 .m-list.-icon {
@@ -25209,6 +25240,86 @@ button.a-navLink {
   right: 0;
 }
 
+.m-list .-bold, .m-list.-bold {
+  font-family: "opensans-bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.m-list.-nomarginb {
+  margin-bottom: 0px;
+}
+
+.m-list.-green {
+  color: #0D7D50;
+}
+
+.m-list.-error {
+  color: #C40000;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.m-list.-highlight {
+  background: #F8EEE5;
+  padding: 0.5rem 1rem;
+  color: #333333;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+}
+
+.m-list.-legalMention {
+  color: #333333;
+  font-size: 0.6875rem;
+  font-weight: 400;
+}
+
+.m-list.-designSystem {
+  color: #333333;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  font-weight: 400;
+}
+
+.m-list.-numbered {
+  list-style-type: decimal;
+}
+
+.m-list.-numbered li::marker {
+  font-size: 1rem;
+}
+
+.m-list.-divided li {
+  position: relative;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  border-bottom: 1px dashed rgba(212, 212, 212, 0);
+}
+
+.m-list.-divided li:after {
+  --s:8px;
+  /* control the space between dashes */
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -18px;
+  right: 0;
+  height: 1px;
+  background: radial-gradient(circle closest-side, #c1c1c1 98%, #0000) 0 0/var(--s) 100%, linear-gradient(90deg, #c1c1c1 50%, #0000 0) calc(var(--s)/2) 0/calc(2*var(--s)) 100%;
+}
+
+.m-list.-divided li:first-of-type {
+  padding-top: 0;
+}
+
+.m-list.-divided li:last-of-type {
+  padding-bottom: 0;
+}
+
+.m-list.-divided li:last-of-type:after {
+  display: none;
+}
+
 /*
  *  ## - Molecules list -responsive
  * __________________________________________________
@@ -25217,13 +25328,8 @@ button.a-navLink {
   .m-list.-img .m-list__item {
     display: flex;
   }
-  .m-list.-img .m-list__item__content {
-    display: flex;
-  }
-  .m-list.-img .m-list__item__content__img {
-    width: 9.375rem;
-    min-width: 9.375rem;
-    margin: 0 1.875rem 0 0;
+  .m-list.-img .m-list__item__img {
+    margin: 0 1.25rem 0 0;
   }
   .m-list.-number.-img {
     margin-left: 10.625rem;
@@ -25578,6 +25684,7 @@ button.a-navLink {
 }
 
 .m-viewer__content__doc {
+  height: 50vh;
   min-height: 400px;
   overflow-y: scroll;
 }
@@ -28164,7 +28271,7 @@ button.a-navLink {
   display: block;
   position: absolute;
   top: 25%;
-  left: -60%;
+  left: -750px;
   width: 900px;
   height: 900px;
   background: radial-gradient(rgba(245, 130, 23, 0.2) 0%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0) 100%);
@@ -28197,11 +28304,23 @@ button.a-navLink {
   margin-bottom: 1.25rem;
 }
 
+.t-assurance .o-cards .m-card {
+  margin-bottom: 1.25rem;
+}
+
+.t-assurance .o-cards .m-card:last-child {
+  margin-bottom: 0;
+}
+
 /*
  *  ## - Template page assurance -responsive
  * ____________________________________________________________________________
  */
 @media (min-width: 1024px) {
+  .t-assurance:after {
+    top: 0%;
+    left: -700px;
+  }
   .t-assurance .m-headerPageWrapper {
     margin-bottom: 1.875rem;
   }
@@ -28211,11 +28330,22 @@ button.a-navLink {
 }
 
 @media (min-width: 1280px) {
+  .t-assurance:after {
+    top: 0%;
+    left: -640px;
+  }
   .t-assurance .m-headerPageWrapper {
     margin-bottom: 3.125rem;
   }
   .t-assurance .m-returnButtonTextWrapper {
     margin-bottom: 3.125rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .t-assurance:after {
+    top: 0%;
+    left: -580px;
   }
 }
 
