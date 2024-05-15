@@ -93,8 +93,8 @@
 
 @font-face {
   font-family: 'cardif-icon';
-  src: url("../fonts/icomoon.eot?cgc89ae");
-  src: url("../fonts/icomoon.eot?cgc89ae#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?cgc89ae") format("truetype"), url("../fonts/icomoon.woff?cgc89ae") format("woff"), url("../fonts/icomoon.svg?cgc89ae#icomoon") format("svg");
+  src: url("icomoon.eot?cgc89ae");
+  src: url("icomoon.eot?cgc89ae#iefix") format("embedded-opentype"), url("icomoon.ttf?cgc89ae") format("truetype"), url("icomoon.woff?cgc89ae") format("woff"), url("icomoon.svg?cgc89ae#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
