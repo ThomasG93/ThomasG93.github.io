@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 75 75">
+  <path fill="#00965e" d="M6 100H3V25h3z">
+    <animate attributeName="height" attributeType="XML" dur="1s" repeatCount="indefinite" values="30; 75; 30"/>
+  </path>
+  <path fill="#00965e" d="M23 100h-3V25h3z">
+    <animate attributeName="height" attributeType="XML" begin="0.1s" dur="1s" repeatCount="indefinite" values="30; 75; 30"/>
+  </path>
+  <path fill="#00965e" d="M40 100h-3V25h3z">
+    <animate attributeName="height" attributeType="XML" begin="0.3s" dur="1s" repeatCount="indefinite" values="30; 75; 30"/>
+  </path>
+  <path fill="#00965e" d="M56 100h-3V25h3z">
+    <animate attributeName="height" attributeType="XML" begin="0.5s" dur="1s" repeatCount="indefinite" values="30; 75; 30"/>
+  </path>
+  <path fill="#00965e" d="M72 100h-3V25h3z">
+    <animate attributeName="height" attributeType="XML" begin="0.1s" dur="1s" repeatCount="indefinite" values="30; 75; 30"/>
+  </path>
+</svg>

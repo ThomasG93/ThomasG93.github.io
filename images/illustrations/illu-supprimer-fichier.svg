@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="120">
+  <defs>
+    <linearGradient id="a" x1="66.6" x2="66.6" y1="46.1" y2="72.2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E1E0F0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#C3C0D9"/>
+    </linearGradient>
+  </defs>
+  <path fill="#F8EEE5" fill-rule="evenodd" d="M6.1 35.9c7.6-30.3 28.4-9.3 49-14.3 20.7-5 28.4-21.6 53.6 3 25.3 24.8-10.7 22-11 44.7-.5 22.8 6.8 30.6-13.5 40.7-20.3 10-33.7 3.3-37.9-21.3-4.2-24.7-25.6-8.6-36-21.9C0 53.5 4.6 42 6.1 35.8z"/>
+  <path fill="url(#a)" fill-rule="evenodd" d="M74.9 40 81 57.5a2.8 2.8 0 0 1-1.7 3.5l-15.7 5.5a2.8 2.8 0 0 1-3.6-1.7l-8-22.9a2.8 2.8 0 0 1 1.6-3.5L64 34.8 74.9 40z" transform="rotate(36 66.6 50.9)"/>
+  <path fill="#FFF" fill-rule="evenodd" d="M81 45.1 75.6 63a2.8 2.8 0 0 1-3.5 2l-15.8-5a2.8 2.8 0 0 1-1.9-3.5l7-23.2a2.8 2.8 0 0 1 3.4-1.9l10.4 3.1L81 45.1z"/>
+  <path fill="#DFDEEE" fill-rule="evenodd" d="m74.4 41.2-8.2-2.5 2.4-8.2 5.8 10.6z"/>
+  <rect width="13.4" height="1.7" x="63.8" y="50" fill="#343C4B" rx="0" ry="0" transform="rotate(17 70.5 50.9)"/>
+  <rect width="13.4" height="1.7" x="64.9" y="53" fill="#343C4B" rx="0" ry="0" transform="rotate(17 71.6 53.9)"/>
+  <rect width="13.4" height="1.7" x="66" y="56" fill="#343C4B" rx="0" ry="0" transform="rotate(17 72.7 56.8)"/>
+  <path fill="#343C4B" fill-rule="evenodd" d="M63 54a.9.9 0 0 1-1.2.6.9.9 0 0 1-.6-1 .9.9 0 0 1 1.1-.6c.5.1.8.6.6 1zm1 3a.9.9 0 0 1-1.1.6.9.9 0 0 1-.6-1 .9.9 0 0 1 1-.7.9.9 0 0 1 .7 1.1zm1 3a.9.9 0 0 1-1 .6.9.9 0 0 1-.6-1.1.9.9 0 0 1 1.6.5z"/>
+  <rect width="4.8" height="4.7" x="59.2" y="45.5" fill="#0CC3BE" rx="0" ry="0" transform="rotate(17 61.6 47.9)"/>
+  <path fill="#4D5F6D" fill-rule="evenodd" d="M45.1 56.4c-1.7 0-3.3 1.3-3 3l6 36.2c.3 1.6 1.4 3 3 3h27.2c1.7 0 2.8-1.4 3-3l6-36.2c.3-1.7-1.2-3-3-3H45.2z"/>
+  <path fill-rule="evenodd" d="M47 60.5h3.3L54.9 95h-2.5L47 60.5zm7.8 0h3.5L59.7 95h-2.4l-2.4-34.5z"/>
+  <rect width="2.9" height="34.5" x="62.9" y="60.5" rx="0" ry="0"/>
+  <path fill-rule="evenodd" d="M81.3 60.5H78L73.5 95H76l5.3-34.5z"/>
+  <path fill="#3F4F5C" fill-rule="evenodd" d="M65.6 21a3 3 0 1 1 4.6 4L44.3 54.5a3 3 0 1 1-4.5-4l8-9-3.5-3a1.5 1.5 0 0 1-.1-2.2l8-9c.5-.7 1.4-.7 2-.2l3.5 3 8-9zM47.4 37.2l2.3 2 6-6.8-2.3-2-6 6.8z"/>
+  <path fill-rule="evenodd" d="M73.5 60.5H70L68.7 95H71l2.4-34.5z"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="155" height="139">
+  <defs>
+    <path id="b" d="M12.7 19h109.7v101H12.7z"/>
+    <path id="a" d="M13 27h110v69.1H13z"/>
+    <mask id="c" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <path d="M0 0h155v139H0z"/>
+      <use xlink:href="#a" fill="#fff"/>
+    </mask>
+  </defs>
+  <path fill="#DDEBDA" fill-rule="evenodd" d="M7 41.5c8.9-35 33-10.7 56.9-16.5 23.9-5.7 32.7-25 62 3.6 29.1 28.4-12.5 25.2-13 51.6-.4 26.3 8 35.4-15.5 47-23.4 11.8-39 4-43.8-24.6C48.7 74 23.9 92.6 12 77.3 0 62 5.3 48.6 7 41.5z"/>
+  <use xlink:href="#b" fill="none" transform="translate(8)"/>
+  <g transform="translate(8)">
+    <use xlink:href="#a" fill="none"/>
+    <g fill-rule="evenodd" mask="url(#c)">
+      <path fill="#009C97" d="M13 91.6V42.8c0-2.5 2-4.5 4.4-4.5h90a4.5 4.5 0 0 1 4.4 4.5v48.8c0 2.5-2 4.5-4.4 4.5h-90a4.5 4.5 0 0 1-4.4-4.5z"/>
+      <path fill="#FFF" d="M24.5 89.1V45.5c0-1.5 1.2-2.7 2.6-2.7H105c1.4 0 2.6 1.2 2.6 2.7v43.6c0 1.5-1.2 2.7-2.6 2.7H27a2.7 2.7 0 0 1-2.6-2.7z"/>
+      <path fill="#F2F2F2" d="M16.1 70.6V64c0-1.5 1.2-2.7 2.7-2.7s2.6 1.2 2.6 2.7v6.6c0 1.5-1.2 2.7-2.6 2.7S16 72.1 16 70.6z"/>
+      <path fill="#F4BB8C" d="M39.7 91.8V51c0-1 .8-1.8 1.8-1.8h43l4.1 4.2 3.6 3.7V92H39.7z"/>
+      <path fill="#FFF" d="M84 80.3H48a1 1 0 0 1 0-2l36 .1c.5 0 1 .4 1 1a1 1 0 0 1-1 1zm0-6.5H48a1 1 0 0 1-1-1c0-.5.5-1 1-1h36c.5 0 1 .5 1 1a1 1 0 0 1-1 1zm0 12.5H48a1 1 0 0 1 0-2h36a1 1 0 0 1 0 2z"/>
+      <path fill="#C99975" d="m84.5 49 7.8 8h-6a1.8 1.8 0 0 1-1.8-1.8V49z" opacity=".8"/>
+    </g>
+  </g>
+  <path fill="#FFA248" fill-rule="evenodd" d="M45.8 36.4c.7.7 1.9.7 2.6 0l10.1-10c.4-.3.5-.8.5-1.2 0-1-.8-1.8-1.8-1.8h-4.7V2.8c0-1-.8-1.8-1.8-1.8h-7.4c-1 0-1.8.8-1.8 1.8v20.6h-4.7c-1 0-1.8.8-1.8 1.8 0 .5.2.9.5 1.2l10.3 10zm90.6 24a20 20 0 0 1-19.7 20c-10.9 0-19.7-9-19.7-20 0 7.9 6.3 14.3 14 14.3 7.8 0 14.1-6.4 14.1-14.3v-2.9h-5.6L130.8 46 142 57.5h-5.6v2.9z"/>
+</svg>

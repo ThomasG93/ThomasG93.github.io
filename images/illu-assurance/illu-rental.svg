@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none">
+  <g clip-path="url(#a)">
+    <path fill="#F8EEE5" d="M49.4 42.3H1s-1.2-8 1-12.3c2.7-5.3 5.6-3.2 6.7-5.4 1.6-2.8 1.2-14 11-13.4 5.8.5 8 9.4 9.8 9.4 2.4 0 5.7-3.8 11.6-1.5 10.2 4.1 8.4 23.2 8.4 23.2Z"/>
+    <path fill="#FFCA99" d="M44.6 36.5c.2-.4.1-1-.3-1.1a.6.6 0 0 0-.8.3h-.1c.1-.4.3-.9-.1-1-.3-.2-.7 0-.9.3 0 .1-.2 0-.1 0 .3-.4.5-1 .5-1.6 0-.5-.1-1-.5-1.3-.4-.4-1-.5-1.5-.2-.5.2-.9.6-1.2 1.1a3 3 0 0 0-.3 1.6h-.1c0-.3-.2-.5-.3-.8 0-.2-.2-.4-.4-.5a1 1 0 0 0-.7 0c-.4 0-.9.3-1 .7v.2-.2c0-.4 0-1-.3-1.4a2 2 0 0 0-.9-.9c-.4-.2-1 0-1.4.2-.4.3-.8.7-.8 1.2-.2.7.2 1.3.4 1.9-.4-.2-.7-.3-1-.1-.3.2-.4.5-.3.8a1 1 0 0 0-.6-.5c-.3-.1-.7 0-1 .3a1 1 0 0 0-.2 1.1h13.9v-.1Z"/>
+    <path fill="#CFE5DC" d="M0 42.5c0 .9 11.2 1.6 25 1.6 14 0 25.1-.7 25.1-1.6 0-1-11.2-1.6-25-1.6-13.9 0-25.1.7-25.1 1.6Z"/>
+    <path fill="#041B2F" d="M32 8v6.7h6.4L32 8Z"/>
+    <path fill="#127A87" d="M32 42h6.4V14.7H32V42Z"/>
+    <path fill="#08375E" d="M34.4 20H36v-3h-1.6v3Zm0 4.8H36v-3h-1.6v3Zm0 4.7H36v-3h-1.6v3Zm0 4.8H36v-3h-1.6v3Zm0 4.7H36v-3h-1.6v3Z"/>
+    <path fill="#62AB8D" d="M25.5 14.7H6.8V42h18.7V14.7Z"/>
+    <path fill="#08375E" d="M13.2 8H32l-6.5 6.7H6.8L13.2 8Z"/>
+    <path fill="#041B2F" d="M32 8v6.7h-6.5L32 8Z"/>
+    <path fill="#127A87" d="M32 14.7h-6.5V42H32V14.7Z"/>
+    <path fill="#08375E" d="M29.6 17H28v3h1.6v-3Zm0 4.8H28v3h1.6v-3Zm0 4.8H28v3h1.6v-3Zm0 4.7H28v3h1.6v-3Zm0 4.7H28v3h1.6v-3ZM23 17h-1.7v3H23v-3Zm0 4.8h-1.6v3H23v-3Zm0 4.8h-1.6v3H23v-3Zm0 4.7h-1.6v3H23v-3Zm0 4.7h-1.6v3H23v-3Zm-6-19h-1.6v3H17v-3Zm0 4.8h-1.6v3H17v-3Zm0 4.8h-1.6v3H17v-3Zm0 4.7h-1.6v3H17v-3Zm0 4.7h-1.6v3H17v-3Zm-6-19H9.2v3H11v-3Zm0 4.8H9.2v3H11v-3Zm0 4.8H9.2v3H11v-3Zm0 4.7H9.2v3H11v-3Zm0 4.7H9.2v3H11v-3Z"/>
+    <path fill="#62AB8D" d="m16.2 10 4.3 4.8H12l4.2-4.8Z"/>
+    <path fill="#041B2F" d="m16.2 10 4.3 4.8-.2-4.8h-4Z"/>
+    <path fill="#08375E" d="M16.2 14.5c.6 0 1-.4 1-1 0-.5-.4-1-1-1a1 1 0 0 0-1 1c0 .6.5 1 1 1Z"/>
+    <g clip-path="url(#b)">
+      <path fill="#3D9773" d="M21 39.1a3 3 0 0 0 3-3.6l-.1-.2c-.7-3-5-3-5.8 0a3 3 0 0 0 2.9 3.8Z"/>
+      <path fill="#127A87" d="M21 42c-.1 0-.2 0-.2-.2V38c0-.2 0-.2.2-.2.1 0 .2 0 .2.2v3.8c0 .1 0 .2-.2.2Z"/>
+      <path fill="#127A87" d="m21 38.3-1.3-1.5v-.3h.3l1 1.2 1-1.2h.3v.3L21 38.3Z"/>
+      <circle cx=".3" cy=".3" r=".3" fill="#FFA856" transform="matrix(1 0 0 -1 22 35)"/>
+      <circle cx=".3" cy=".3" r=".3" fill="#FF7C00" transform="matrix(1 0 0 -1 21 36.5)"/>
+      <circle cx=".3" cy=".3" r=".3" fill="#FF7C00" transform="matrix(1 0 0 -1 20 38.5)"/>
+      <circle cx=".3" cy=".3" r=".3" fill="#FFA856" transform="matrix(1 0 0 -1 23 37.5)"/>
+      <circle cx=".3" cy=".3" r=".3" fill="#FFA856" transform="matrix(1 0 0 -1 18 37.5)"/>
+      <circle cx=".3" cy=".3" r=".3" fill="#FFA856" transform="matrix(1 0 0 -1 19 35.5)"/>
+      <circle cx=".3" cy=".3" r=".3" fill="#FF7C00" transform="matrix(1 0 0 -1 20 33.5)"/>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <path fill="#fff" d="M0 0h50v50H0z"/>
+    </clipPath>
+    <clipPath id="b">
+      <path fill="#fff" d="M18 33h6v9h-6z"/>
+    </clipPath>
+  </defs>
+</svg>
