@@ -16824,10 +16824,6 @@ button.a-navLink {
 
 .m-accordionItem__header {
   padding: 1rem 0;
-}
-
-.m-accordionItem__header h2 {
-  font-size: unset;
   margin-bottom: 0;
 }
 
