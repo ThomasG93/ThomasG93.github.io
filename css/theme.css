@@ -13063,6 +13063,10 @@ button.a-navLink {
   color: #005231;
 }
 
+.a-btn.-floatingButton.-secondary.hover.-icon, .a-btn.-floatingButton.-secondary:hover.-icon{
+  color: #005231;
+}
+
 .a-btn.-floatingButton.-secondary.hover span::before, .a-btn.-floatingButton.-secondary:hover span::before, .a-btn.-floatingButton.-secondary:focus span::before {
   -webkit-text-stroke: 0.5px #005231;
 }
