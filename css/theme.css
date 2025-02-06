@@ -13064,7 +13064,7 @@ button.a-navLink {
 }
 
 .a-btn.-floatingButton.-secondary.hover span::before, .a-btn.-floatingButton.-secondary:hover span::before, .a-btn.-floatingButton.-secondary:focus span::before {
-  -webkit-text-stroke: 0.5px #0D7D50;
+  -webkit-text-stroke: 0.5px #005231;
 }
 
 .a-btn.-icon {
