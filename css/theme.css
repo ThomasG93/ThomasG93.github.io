@@ -13063,7 +13063,7 @@ button.a-navLink {
   color: #005231;
 }
 
-.a-btn.-floatingButton.-secondary.hover.-icon, .a-btn.-floatingButton.-secondary:hover.-icon{
+.a-btn.-floatingButton.-secondary.hover .-icon, .a-btn.-floatingButton.-secondary:hover .-icon{
   color: #005231;
 }
 
