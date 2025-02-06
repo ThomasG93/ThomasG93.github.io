@@ -13058,7 +13058,7 @@ button.a-navLink {
 
 .a-btn.-floatingButton.-secondary.hover, .a-btn.-floatingButton.-secondary:hover, .a-btn.-floatingButton.-secondary:focus {
   background-color: #FFFFFF;
-  box-shadow: inset 0 0 0 2px #0D7D50, 0 4px 8px 0 rgba(26, 26, 26, 0.15);
+  box-shadow: inset 0 0 0 2px #005231, 0 4px 8px 0 rgba(26, 26, 26, 0.15);
   transition: 0.08s ease-in-out;
   color: #005231;
 }
